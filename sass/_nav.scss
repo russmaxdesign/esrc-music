@@ -1,0 +1,125 @@
+//
+// nav
+// --------------------------------------------------
+
+
+// nav
+
+.nav-container {
+  clear: both;
+  display: block;
+  margin: 0;
+  background: $nav-bg-color;
+}
+
+.nav {
+  padding-bottom: 5px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.nav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.nav a {
+  @extend .small;
+
+  float: left;
+  border-bottom: 5px solid $white;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: $nav-color;
+  background: $nav-bg-color;
+}
+
+.nav a:focus {
+  color: $nav-focus-color;
+  background: $nav-focus-bg-color;
+}
+
+.nav a:hover {
+  color: $nav-hover-color;
+  background: $nav-hover-bg-color;
+}
+
+.nav a:active {
+  color: $nav-active-color;
+  background: $nav-active-bg-color;
+}
+
+
+// current
+
+#home .home a,
+#about .about a,
+#introduction .introduction a,
+#essay .essay a,
+#more .more a,
+#women .women a,
+#themes .themes a,
+#resources .resources a,
+#gallery .gallery a {
+  border-bottom: 5px solid $purple;
+}
+
+#home .home a:focus,
+#about .about a:focus,
+#introduction .introduction a:focus,
+#essay .essay a:focus,
+#more .more a:focus,
+#women .women a:focus,
+#themes .themes a:focus,
+#resources .resources a:focus,
+#gallery .gallery a:focus {
+  color: $nav-focus-color;
+  background: $nav-focus-bg-color;
+}
+
+#home .home a:active,
+#about .about a:active,
+#introduction .introduction a:active,
+#essay .essay a:active,
+#more .more a:active,
+#women .women a:active,
+#themes .themes a:active,
+#resources .resources a:active,
+#gallery .gallery a:active {
+  color: $nav-active-color;
+  background: $nav-active-bg-color;
+}
+
+
+// mobile
+
+
+
+// wide screen
+
+@media only screen and (min-width:750px) {
+  .nav-container {
+    float: left;
+    clear: none;
+    margin: 0 0 0 40px;
+  }
+
+.nav a {
+
+  padding: 10px;
+  margin: 0 10px 0 0;
+}
+}

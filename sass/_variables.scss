@@ -1,0 +1,90 @@
+//
+// variables
+// --------------------------------------------------
+
+
+// colors
+
+$black: #000;
+$white: #fff;
+$gray-light: #dbdbdb;
+$gray-mid: #555;
+$gray: #4a4a4a;
+$gray-dark: #1c1c1c;
+$purple: #4d5c73;
+$red: #8C0000;
+$aqua: #cbebd5;
+$aqua-dark: #537E6B;
+
+
+// primary colors
+
+$primary: $purple;
+$secondary: $aqua;
+$font-color: $gray-mid;
+$feature-font-color: $gray;
+
+
+// link colors
+
+$link-color: $purple;
+$visited-color: darken($purple, 5%);
+$hover-color: darken($purple, 10%);
+$focus-color: #000;
+$active-color: $red;
+
+
+// button colors
+
+$btn-color: $white;
+$btn-bg-color: $link-color;
+$btn-hover-color: $white;
+$btn-hover-bg-color: $hover-color;
+$btn-focus-color: $white;
+$btn-focus-bg-color: $focus-color;
+$btn-active-color: $white;
+$btn-active-bg-color: $active-color;
+
+
+// nav colors
+
+$nav-color: $black;
+$nav-current-color: $purple;
+$nav-bg-color: #efefef;
+$nav-focus-color: $white;
+$nav-focus-bg-color: $black;
+$nav-hover-color: $white;
+$nav-hover-bg-color: $purple;
+$nav-active-color: $black;
+$nav-active-bg-color: $purple;
+
+
+// other colors
+
+$border-color: $gray-light;
+$heading-color: $aqua-dark;
+
+
+// fonts
+
+$font: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+$font-feature: 'Bevan', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+
+
+// layout colors
+
+$header-heading-color: $purple;
+$header-bg-color: $white;
+$nav-bg-color: $white;
+$content-bg-color: $white;
+$survey-bg-color: $gray-light;
+$credits-bg-color: $aqua;
+$footer-bg-color: $gray-dark;
+
+
+// background images
+
+$bg-bullet-img: url("../img/bullet.png") no-repeat 0 .45em;
+$bg-content: $content-bg-color;
+$bg-survey: $survey-bg-color;
+$bg-credits: $credits-bg-color;

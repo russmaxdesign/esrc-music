@@ -1,0 +1,217 @@
+//
+// base styles
+// --------------------------------------------------
+
+
+// body
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $font-color;
+  background-color: $white;
+  font-family: $font;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+// headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em 0 .5em;
+  color: $heading-color;
+  font-family: $font-feature;
+  line-height: 1.1;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 0 0 .5em;
+  font-size: 180%;
+}
+
+h2 { font-size: 137.5%; }
+h3 { font-size: 125%; }
+h4 { font-size: 112.5%; }
+h5 { font-size: 100%; }
+h6 { font-size: 100%; }
+.medium { font-size: 93.75%; }
+.small { font-size: 87.5%; }
+.xsmall { font-size: 75%; }
+.heading-main { font-size: 150%; }
+
+@media (min-width: 1200px) {
+  body { font-size: 106.25%; }
+  h1 { font-size: 176.470588235294%; }
+  h2 { font-size: 135.294117647059%; }
+  h3 { font-size: 123.529411764706%; }
+  h4 { font-size: 111.764705882353%; }
+  .medium { font-size: 94.117647058824%; }
+  .small { font-size: 88.235294117647%; }
+  .xsmall { font-size: 76.470588235294%; }
+  .heading-main { font-size: 160%; }
+}
+
+@media (min-width: 1400px) {
+  body { font-size: 112.5%; }
+  h1 { font-size: 177.777777777778%; }
+  h2 { font-size: 133.33333333333%; }
+  h3 { font-size: 122.222222222222%; }
+  h4 { font-size: 111.111111111111%; }
+  .medium { font-size: 94.444444444444%; }
+  .small { font-size: 88.888888888889%; }
+  .xsmall { font-size: 77.777777777778%; }
+  .heading-main { font-size: 180%; }
+}
+
+
+// p and ul
+
+p,
+ul {
+  line-height: 1.5;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+blockquote {
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  margin: 2em 0;
+  padding: 1em 0;
+  color: $gray;
+  font-family: $font-feature;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+
+  image-rendering: optimizeQuality;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid $border-color;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.hr-small {
+  height: 0;
+  border: 0;
+  border-top: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+table {
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+}
+
+th,
+td {
+  border: 1px solid $border-color;
+  padding: .5em 1em;
+  text-align: left;
+  vertical-align: top;
+}
+
+ul {
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: .1em 0 .1em 0;
+}
+
+ul li {
+  padding: .1em 0 .1em 20px;
+  background: $bg-bullet-img;
+}
+
+#more dt {
+  padding: .1em 0 .1em 20px;
+  background: $bg-bullet-img;
+  background-position: 0 .35em;
+}
+
+#more dd {
+  margin: 0 0 .75em 0;
+  padding: 0 0 0 20px;
+}
+
+
+// links
+
+a {
+  border-bottom: 1px solid;
+  color: $link-color;
+  text-decoration: none;
+
+  -webkit-transition: background-color .5s;
+     -moz-transition: background-color .5s;
+      -ms-transition: background-color .5s;
+       -o-transition: background-color .5s;
+          transition: background-color .5s;
+}
+
+a:link {
+  border-bottom: 1px solid;
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:visited {
+  border-bottom: 1px solid;
+  color: $visited-color;
+  text-decoration: none;
+}
+
+a:focus {
+  color: $focus-color;
+}
+
+a:hover {
+  color: $hover-color;
+}
+
+a:active {
+  color: $active-color;
+}
+
+
+// links wide screen
+
+@media only screen and (max-width: 750px) {
+  a:link,
+  a:visited {
+    word-wrap: break-word;
+  }
+}

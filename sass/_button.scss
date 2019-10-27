@@ -1,0 +1,37 @@
+//
+// button styles
+// --------------------------------------------------
+
+
+.btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-color: #222;
+  border-radius: .2em;
+  margin-bottom: 0;
+  padding: .5em 1em;
+  cursor: pointer;
+  color: $btn-color !important;
+  background-color: $btn-bg-color;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: $btn-hover-color !important;
+  background-color: $btn-hover-bg-color;
+}
+
+.btn:focus {
+  color: $btn-focus-color !important;
+  background-color: $btn-focus-bg-color;
+}
+
+.btn:active {
+  color: $btn-active-color!important;
+  background-color: $btn-active-bg-color;
+}

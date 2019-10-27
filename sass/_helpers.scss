@@ -1,0 +1,124 @@
+//
+// helpers
+// --------------------------------------------------
+
+
+// colors
+
+.c-black { color: $black; }
+.c-white { color: $white; }
+.c-gray-light { color: $gray-light; }
+.c-gray-mid { color: $gray-mid; }
+.c-gray { color: $gray; }
+.c-gray-dark { color: $gray-dark; }
+.c-purple { color: $purple; }
+.c-red { color: $red; }
+.c-aqua { color: $aqua; }
+
+
+// bg colors
+
+.bg-black { background-color: $black; }
+.bg-white { background-color: $white; }
+.bg-gray-light { background-color: $gray-light; }
+.bg-gray-mid { background-color: $gray-mid; }
+.bg-gray { background-color: $gray; }
+.bg-gray-dark { background-color: $gray-dark; }
+.bg-purple { background-color: $purple; }
+.bg-red { background-color: $red; }
+.bg-aqua { background-color: $aqua; }
+
+
+// fonts
+
+.font-feature { font-family: $font-feature; }
+
+
+// margins
+
+.nm { margin: 0 !important; }
+
+.mbn { margin-bottom: 0 !important; }
+.mbh { margin-bottom: .5em !important; }
+.mbf { margin-bottom: 1em !important; }
+.mbd { margin-bottom: 2em !important; }
+
+.mtn { margin-top: 0 !important; }
+.mth { margin-top: .5em !important; }
+.mtf { margin-top: 1em !important; }
+.mtd { margin-top: 2em !important; }
+
+.mrn { margin-right: 0 !important; }
+.mrh { margin-right: .5em !important; }
+.mrf { margin-right: 1em !important; }
+.mrd { margin-right: 2em !important; }
+
+.mln { margin-left: 0 !important; }
+.mlh { margin-left: .5em !important; }
+.mlf { margin-left: 1em !important; }
+.mld { margin-left: 2em !important; }
+
+// clear
+
+.clearLeft { clear: left; }
+.clearRight { clear: right; }
+.clearBoth { clear: both; }
+
+
+// float
+
+.floatLeft { float: left; }
+.floatRight { float: right; }
+
+
+// overflow
+
+.overflow {
+  overflow: hidden;
+}
+
+
+// lists
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled li {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: none;
+}
+
+
+// hiding
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
